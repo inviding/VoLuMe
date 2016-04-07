@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */; };
+		3F7634541CB6CA5200F5BE33 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */; };
 		3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC11CB5737F005A3534 /* AppDelegate.swift */; };
 		3FE13AC41CB5737F005A3534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC31CB5737F005A3534 /* ViewController.swift */; };
 		3FE13AC71CB5737F005A3534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE13AC51CB5737F005A3534 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		3FE13ABE1CB5737F005A3534 /* What Was That? Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Was That? Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE13AC11CB5737F005A3534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE13AC31CB5737F005A3534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				3FE13AC11CB5737F005A3534 /* AppDelegate.swift */,
 				3FE13AC31CB5737F005A3534 /* ViewController.swift */,
 				3FE13AC51CB5737F005A3534 /* Main.storyboard */,
+				3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */,
+				3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */,
 				3FE13AC81CB57380005A3534 /* Assets.xcassets */,
 				3FE13ACA1CB57380005A3534 /* LaunchScreen.storyboard */,
 				3FE13ACD1CB57380005A3534 /* Info.plist */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE13AC41CB5737F005A3534 /* ViewController.swift in Sources */,
+				3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */,
 				3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */,
+				3F7634541CB6CA5200F5BE33 /* ChoicesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +494,7 @@
 				3FE13AE81CB57380005A3534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE13AE91CB57380005A3534 /* Build configuration list for PBXNativeTarget "What Was That? FinalTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				3FE13AEB1CB57380005A3534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE13AEC1CB57380005A3534 /* Build configuration list for PBXNativeTarget "What Was That? FinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				3FE13AEE1CB57380005A3534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,6 +20,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="429" y="331"/>
+        </scene>
+        <!--Sound View Controller-->
+        <scene sceneID="C4Y-X1-we3">
+            <objects>
+                <viewController id="cvj-YH-nHT" customClass="SoundViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8md-PX-kj3"/>
+                        <viewControllerLayoutGuide type="bottom" id="PvT-qQ-gPC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vyu-Xd-rih">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kN1-gM-CZ9">
+                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                <state key="normal" title="Button" image="pause_button_new"/>
+                                <connections>
+                                    <action selector="pauseGameOnTapped:" destination="cvj-YH-nHT" eventType="touchUpInside" id="7mg-qP-Ppa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mxQ-ew-fpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="331"/>
+        </scene>
+        <!--Choices View Controller-->
+        <scene sceneID="1S5-fX-PM7">
+            <objects>
+                <viewController id="6tk-tD-S43" customClass="ChoicesViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sAQ-fI-WHB"/>
+                        <viewControllerLayoutGuide type="bottom" id="8kE-Ow-ptd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E7k-tD-zqb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5e-rq-yDG">
+                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                <state key="normal" title="Button" image="pause_button_new"/>
+                                <connections>
+                                    <action selector="pauseOnTapped:" destination="6tk-tD-S43" eventType="touchUpInside" id="Zgg-5o-HH9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AKi-HS-Qhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="331"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pause_button_new" width="128" height="128"/>
+    </resources>
 </document>
