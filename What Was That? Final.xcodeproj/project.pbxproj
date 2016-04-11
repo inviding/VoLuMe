@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */; };
 		3F7634541CB6CA5200F5BE33 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */; };
+		3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634551CBC104000F5BE33 /* ScoreViewController.swift */; };
+		3F7634581CBC11E000F5BE33 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */; };
 		3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC11CB5737F005A3534 /* AppDelegate.swift */; };
 		3FE13AC41CB5737F005A3534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC31CB5737F005A3534 /* ViewController.swift */; };
 		3FE13AC71CB5737F005A3534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE13AC51CB5737F005A3534 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
+		3F7634551CBC104000F5BE33 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
 		3FE13ABE1CB5737F005A3534 /* What Was That? Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Was That? Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE13AC11CB5737F005A3534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE13AC31CB5737F005A3534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				3FE13AC11CB5737F005A3534 /* AppDelegate.swift */,
 				3FE13AC31CB5737F005A3534 /* ViewController.swift */,
 				3FE13AC51CB5737F005A3534 /* Main.storyboard */,
+				3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */,
+				3F7634551CBC104000F5BE33 /* ScoreViewController.swift */,
 				3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */,
 				3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */,
 				3FE13AC81CB57380005A3534 /* Assets.xcassets */,
@@ -266,8 +272,10 @@
 			files = (
 				3FE13AC41CB5737F005A3534 /* ViewController.swift in Sources */,
 				3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */,
+				3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */,
 				3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */,
 				3F7634541CB6CA5200F5BE33 /* ChoicesViewController.swift in Sources */,
+				3F7634581CBC11E000F5BE33 /* HighScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

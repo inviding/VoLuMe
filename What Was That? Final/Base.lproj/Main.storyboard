@@ -76,6 +76,65 @@
             </objects>
             <point key="canvasLocation" x="1706" y="331"/>
         </scene>
+        <!--Score View Controller-->
+        <scene sceneID="08q-cA-Gxc">
+            <objects>
+                <viewController id="fxg-uu-MNE" customClass="ScoreViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9BJ-7p-ove"/>
+                        <viewControllerLayoutGuide type="bottom" id="bJI-Sz-94i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cW7-Et-6kA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efP-fM-96N">
+                                <rect key="frame" x="165" y="270" width="270" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="efP-fM-96N" firstAttribute="centerY" secondItem="cW7-Et-6kA" secondAttribute="centerY" id="cbB-sW-Ken"/>
+                            <constraint firstItem="efP-fM-96N" firstAttribute="centerX" secondItem="cW7-Et-6kA" secondAttribute="centerX" id="xTZ-Xm-Vta"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksL-8n-uTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2346" y="331"/>
+        </scene>
+        <!--High Score View Controller-->
+        <scene sceneID="j0I-Tb-1hu">
+            <objects>
+                <viewController id="ljy-QP-pBI" customClass="HighScoreViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="enT-3b-fyq"/>
+                        <viewControllerLayoutGuide type="bottom" id="DcJ-Je-jBe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uML-gT-VQY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="High Scores:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yT8-my-Rpm">
+                                <rect key="frame" x="136" y="0.0" width="329" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yT8-my-Rpm" firstAttribute="centerX" secondItem="uML-gT-VQY" secondAttribute="centerX" id="jpK-6v-ABN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xB5-Tr-Dla" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2984" y="331"/>
+        </scene>
     </scenes>
     <resources>
         <image name="pause_button_new" width="128" height="128"/>

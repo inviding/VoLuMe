@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class SoundViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -18,7 +19,7 @@ class SoundViewController: UIViewController {
     
     @IBAction func pauseGameOnTapped(sender: AnyObject)
     {
-        
+        print("Game paused")
     }
 
 }
