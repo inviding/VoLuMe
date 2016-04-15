@@ -33,15 +33,6 @@
                     <view key="view" contentMode="scaleToFill" id="Vyu-Xd-rih">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kN1-gM-CZ9">
-                                <rect key="frame" x="20" y="20" width="50" height="50"/>
-                                <state key="normal" title="Button" image="pause_button_new"/>
-                                <connections>
-                                    <action selector="pauseGameOnTapped:" destination="cvj-YH-nHT" eventType="touchUpInside" id="7mg-qP-Ppa"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

@@ -7,19 +7,39 @@
 //
 
 import UIKit
-
+import AVFoundation
 
 class SoundViewController: UIViewController {
+    
+    var backgroundMusicPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    //Found on: http://stackoverflow.com/questions/32882737/how-to-play-background-music-with-swift-2-0
     
-    @IBAction func pauseGameOnTapped(sender: AnyObject)
+    func playBackgroundMusic(filename: String)
     {
-        print("Game paused")
+        let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
+        guard let newURL = url
+            else
+        {
+            playBackgroundMusic("yourFileName.mp3")
+            print("Could not find file: \(filename)")
+            return
+        }
+        do
+        {
+            backgroundMusicPlayer = try AVAudioPlayer(contentsOfURL: newURL)
+            backgroundMusicPlayer.numberOfLoops = -1
+            backgroundMusicPlayer.prepareToPlay()
+            backgroundMusicPlayer.play()
+        } catch let error as NSError
+        {
+            print(error.description)
+        }
     }
-
+    
 }
