@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F015A081CC54F9900B64F2A /* DogBarking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F015A071CC54F9900B64F2A /* DogBarking.mp3 */; };
 		3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */; };
 		3F7634541CB6CA5200F5BE33 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */; };
 		3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634551CBC104000F5BE33 /* ScoreViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F015A071CC54F9900B64F2A /* DogBarking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DogBarking.mp3; path = "../../../Downloads/VoLuMe-dev/DogBarking.mp3"; sourceTree = "<group>"; };
 		3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		3F7634551CBC104000F5BE33 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F015A091CC54FFE00B64F2A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F015A071CC54F9900B64F2A /* DogBarking.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		3FE13AB51CB5737F005A3534 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 				3F7634531CB6CA5200F5BE33 /* ChoicesViewController.swift */,
 				3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */,
 				3FE13AC81CB57380005A3534 /* Assets.xcassets */,
+				3F015A091CC54FFE00B64F2A /* Sounds */,
 				3FE13ACA1CB57380005A3534 /* LaunchScreen.storyboard */,
 				3FE13ACD1CB57380005A3534 /* Info.plist */,
 			);
@@ -243,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F015A081CC54F9900B64F2A /* DogBarking.mp3 in Resources */,
 				3FE13ACC1CB57380005A3534 /* LaunchScreen.storyboard in Resources */,
 				3FE13AC91CB57380005A3534 /* Assets.xcassets in Resources */,
 				3FE13AC71CB5737F005A3534 /* Main.storyboard in Resources */,

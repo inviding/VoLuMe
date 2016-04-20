@@ -9,15 +9,32 @@
 import UIKit
 import AVFoundation
 
-class SoundViewController: UIViewController {
+class SoundViewController: UIViewController, AVAudioPlayerDelegate {
     
     var backgroundMusicPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    
+    func playBackgroundMusic(filename: String)
+    {
+        let url = NSBundle.mainBundle().URLForResource("DogBarking.mp3", withExtension: nil)
+        
+        do
+        {
+            backgroundMusicPlayer = try AVAudioPlayer(contentsOfURL: url!)
+            backgroundMusicPlayer.numberOfLoops = -1
+            backgroundMusicPlayer.prepareToPlay()
+            backgroundMusicPlayer.play()
+            
+        }
+        catch let error as NSError
+        {
+            print(error.description)
+        }
+    }
+/*****************************
     //Found on: http://stackoverflow.com/questions/32882737/how-to-play-background-music-with-swift-2-0
     
     func playBackgroundMusic(filename: String)
@@ -26,7 +43,7 @@ class SoundViewController: UIViewController {
         guard let newURL = url
             else
         {
-            playBackgroundMusic("yourFileName.mp3")
+            playBackgroundMusic("DogBarking.mp3")
             print("Could not find file: \(filename)")
             return
         }
@@ -41,5 +58,5 @@ class SoundViewController: UIViewController {
             print(error.description)
         }
     }
-    
+********************************/
 }
