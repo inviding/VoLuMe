@@ -121,6 +121,12 @@
                     <view key="view" contentMode="scaleToFill" id="Vyu-Xd-rih">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSH-UO-Iqc">
+                                <rect key="frame" x="245" y="285" width="111" height="30"/>
+                                <state key="normal" title="Answer Choices"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -144,26 +150,45 @@
                                 <rect key="frame" x="0.0" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.52145360399999996" green="1" blue="0.68036286810000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onGreenTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="Cnb-bL-bps"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgP-yq-QIv">
                                 <rect key="frame" x="0.0" y="410" width="200" height="326"/>
                                 <color key="backgroundColor" red="1" green="0.86197012049999999" blue="0.50461253910000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onYellowTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="1SZ-i8-PDU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpJ-6w-gVp">
                                 <rect key="frame" x="214" y="410" width="200" height="325"/>
                                 <color key="backgroundColor" red="1" green="0.44043026140000002" blue="0.5286708202" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onRedTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="QMJ-xj-Sv0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-wv-YM6">
                                 <rect key="frame" x="214" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.69451147049999995" green="0.62302972059999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onPurpleTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="NSt-NX-dQx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="greenButton" destination="W4a-4c-JFA" id="iRx-4z-ZJp"/>
+                        <outlet property="onRedTapped" destination="qpJ-6w-gVp" id="zXD-sL-Vhb"/>
+                        <outlet property="purpleButton" destination="hnd-wv-YM6" id="zoK-KO-IpD"/>
+                        <outlet property="redButton" destination="qpJ-6w-gVp" id="91J-0Z-PKj"/>
+                        <outlet property="yellowButton" destination="lgP-yq-QIv" id="rg8-RW-dM2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ht9-AJ-mzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
