@@ -163,26 +163,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-4c-JFA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-4c-JFA">
                                 <rect key="frame" x="0.0" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.52145360399999996" green="1" blue="0.68036286810000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="p5Q-Ex-j3V"/>
+                                    <constraint firstAttribute="height" constant="325" id="xk1-X3-cNt"/>
+                                </constraints>
                                 <connections>
                                     <action selector="onGreenTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="Cnb-bL-bps"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-wv-YM6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-wv-YM6">
                                 <rect key="frame" x="214" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.69451147049999995" green="0.62302972059999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="K4q-zy-wya"/>
+                                    <constraint firstAttribute="height" constant="325" id="wkz-q8-40n"/>
+                                </constraints>
                                 <connections>
                                     <action selector="onPurpleTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="NSt-NX-dQx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgP-yq-QIv">
-                                <rect key="frame" x="0.0" y="410" width="200" height="326"/>
+                                <rect key="frame" x="0.0" y="410" width="200" height="325"/>
                                 <color key="backgroundColor" red="1" green="0.86197012049999999" blue="0.50461253910000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EnY-tx-Wul"/>
+                                    <constraint firstAttribute="height" constant="325" id="WV3-dv-Asq"/>
+                                </constraints>
                                 <connections>
                                     <action selector="onYellowTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="1SZ-i8-PDU"/>
                                 </connections>
@@ -190,7 +199,10 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpJ-6w-gVp">
                                 <rect key="frame" x="214" y="411" width="200" height="325"/>
                                 <color key="backgroundColor" red="1" green="0.44043026140000002" blue="0.5286708202" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="3Jl-da-ldC"/>
+                                    <constraint firstAttribute="width" constant="200" id="WAN-Sx-wCH"/>
+                                </constraints>
                                 <connections>
                                     <action selector="onRedTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="QMJ-xj-Sv0"/>
                                 </connections>
@@ -208,10 +220,11 @@
                             <constraint firstItem="lgP-yq-QIv" firstAttribute="leading" secondItem="OTc-mU-IdH" secondAttribute="leadingMargin" constant="-20" id="vpX-yy-csZ"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="greenButton" destination="W4a-4c-JFA" id="iRx-4z-ZJp"/>
-                        <outlet property="onRedTapped" destination="qpJ-6w-gVp" id="zXD-sL-Vhb"/>
                         <outlet property="purpleButton" destination="hnd-wv-YM6" id="zoK-KO-IpD"/>
                         <outlet property="redButton" destination="qpJ-6w-gVp" id="91J-0Z-PKj"/>
                         <outlet property="yellowButton" destination="lgP-yq-QIv" id="rg8-RW-dM2"/>
@@ -219,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ht9-AJ-mzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2458" y="331"/>
+            <point key="canvasLocation" x="2484" y="331"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="08q-cA-Gxc">

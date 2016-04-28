@@ -9,7 +9,7 @@
 import UIKit
 
 class ChoicesViewController: UIViewController {
-
+    
     @IBOutlet weak var greenButton: UIButton!
     @IBOutlet weak var purpleButton: UIButton!
     @IBOutlet weak var yellowButton: UIButton!
@@ -20,11 +20,13 @@ class ChoicesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        randomQuestion()
+        
     }
     
     func randomQuestion()
     {
-        var randomNumber = arc4random() % 4
+        var randomNumber = arc4random() % 3
         randomNumber += 1
         
         switch(randomNumber){
@@ -51,14 +53,14 @@ class ChoicesViewController: UIViewController {
             correctAnswer = "1"
             
             break
-        case 4:
-            greenButton.setTitle("", forState: UIControlState.Normal)
-            purpleButton.setTitle("", forState: UIControlState.Normal)
-            yellowButton.setTitle("", forState: UIControlState.Normal)
-            redButton.setTitle("", forState: UIControlState.Normal)
-            correctAnswer = "2"
+//        case 4:
+//            greenButton.setTitle("", forState: UIControlState.Normal)
+//            purpleButton.setTitle("", forState: UIControlState.Normal)
+//            yellowButton.setTitle("", forState: UIControlState.Normal)
+//            redButton.setTitle("", forState: UIControlState.Normal)
+//            correctAnswer = "2"
             
-            break
+            //   break
             
             
         default:
@@ -75,41 +77,41 @@ class ChoicesViewController: UIViewController {
         else{
             NSLog("Nope")
         }
-
+        
     }
     
     @IBAction func onPurpleTapped(sender: AnyObject) {
-        if correctAnswer == "1"
+        if correctAnswer == "2"
         {
             NSLog("Correct!")
         }
         else{
             NSLog("Nope")
         }
-
+        
     }
     
     @IBAction func onYellowTapped(sender: AnyObject) {
-        if correctAnswer == "1"
+        if correctAnswer == "3"
         {
             NSLog("Correct!")
         }
         else{
             NSLog("Nope")
         }
-
+        
     }
     
     @IBAction func onRedTapped(sender: AnyObject) {
-        if correctAnswer == "1"
+        if correctAnswer == "4"
         {
             NSLog("Correct!")
         }
         else{
             NSLog("Nope")
         }
-
+        
     }
-   
-
+    
+    
 }
