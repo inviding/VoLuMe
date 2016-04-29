@@ -36,10 +36,11 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
-    @IBAction func playSoundButton(sender: AnyObject)
-    {
+    @IBAction func playSoundButton(sender: AnyObject) {
+        
         
     }
+    
     
 /*****************************
     //Found on: http://stackoverflow.com/questions/32882737/how-to-play-background-music-with-swift-2-0

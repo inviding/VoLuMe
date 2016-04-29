@@ -146,18 +146,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSH-UO-Iqc">
-                                <rect key="frame" x="152" y="353" width="111" height="30"/>
+                                <rect key="frame" x="152" y="486" width="111" height="30"/>
                                 <state key="normal" title="Answer Choices">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playSoundButton:" destination="cvj-YH-nHT" eventType="touchUpInside" id="FiF-G3-DfK"/>
+                                    <segue destination="hXD-Zf-fNt" kind="show" id="vFH-jO-fFl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifl-FY-Zgk">
+                                <rect key="frame" x="102" y="195" width="211" height="211"/>
+                                <state key="normal" image="play_blue">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSoundButton:" destination="cvj-YH-nHT" eventType="touchUpInside" id="aTe-YR-bYs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TSH-UO-Iqc" firstAttribute="centerX" secondItem="Vyu-Xd-rih" secondAttribute="centerX" id="CXw-6b-rGC"/>
+                            <constraint firstItem="ifl-FY-Zgk" firstAttribute="centerX" secondItem="Vyu-Xd-rih" secondAttribute="centerX" id="Tfd-g6-ats"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -180,7 +190,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="9za-aJ-enJ">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-4c-JFA">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-4c-JFA">
                                 <rect key="frame" x="0.0" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.52145360399999996" green="1" blue="0.68036286810000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -191,7 +201,7 @@
                                     <action selector="onGreenTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="Cnb-bL-bps"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-wv-YM6">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-wv-YM6">
                                 <rect key="frame" x="214" y="64" width="200" height="325"/>
                                 <color key="backgroundColor" red="0.69451147049999995" green="0.62302972059999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -364,5 +374,6 @@
         <image name="Start_Button" width="650" height="394"/>
         <image name="WWT--Main_Title_Graphic" width="979" height="817"/>
         <image name="background" width="1080" height="1920"/>
+        <image name="play_blue" width="512" height="512"/>
     </resources>
 </document>
