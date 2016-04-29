@@ -125,6 +125,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEa-j0-fZG">
                                 <rect key="frame" x="183" y="183" width="234" height="234"/>
                                 <state key="normal" title="Play Sound Button" image="BluePlayButton"/>
+                                <connections>
+                                    <action selector="playSoundButton:" destination="cvj-YH-nHT" eventType="touchUpInside" id="FiF-G3-DfK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
