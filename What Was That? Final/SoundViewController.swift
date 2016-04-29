@@ -20,7 +20,7 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
     
     func playBackgroundMusic(filename: String)
     {
-        let url = NSBundle.mainBundle().URLForResource("DogBarking.mp3", withExtension: nil)
+        let url = NSBundle.mainBundle().URLForResource("DogBark.mp3", withExtension: nil)
         
         do
         {
