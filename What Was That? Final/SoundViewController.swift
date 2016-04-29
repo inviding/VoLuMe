@@ -11,6 +11,7 @@ import AVFoundation
 
 class SoundViewController: UIViewController, AVAudioPlayerDelegate {
     
+    
     var backgroundMusicPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
@@ -34,6 +35,12 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
             print(error.description)
         }
     }
+    
+    @IBAction func playSoundButton(sender: AnyObject)
+    {
+        
+    }
+    
 /*****************************
     //Found on: http://stackoverflow.com/questions/32882737/how-to-play-background-music-with-swift-2-0
     
