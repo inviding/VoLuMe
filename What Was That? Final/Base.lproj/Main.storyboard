@@ -156,6 +156,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifl-FY-Zgk">
                                 <rect key="frame" x="102" y="195" width="211" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="211" id="Vc2-kr-wrk"/>
+                                    <constraint firstAttribute="width" constant="211" id="cCw-cf-bU7"/>
+                                </constraints>
                                 <state key="normal" image="play_blue">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
