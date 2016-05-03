@@ -10,6 +10,7 @@
 		3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */; };
 		3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634551CBC104000F5BE33 /* ScoreViewController.swift */; };
 		3F7634581CBC11E000F5BE33 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */; };
+		3F8695AA1CD917FE0032904C /* DogBarking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F8695A91CD917FE0032904C /* DogBarking.mp3 */; };
 		3FBBDAC71CC946630093062E /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBDAC61CC946630093062E /* ChoicesViewController.swift */; };
 		3FBBDAC91CCE87890093062E /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBDAC81CCE87890093062E /* DirectionsViewController.swift */; };
 		3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC11CB5737F005A3534 /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		3F7634551CBC104000F5BE33 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		3F8695A91CD917FE0032904C /* DogBarking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DogBarking.mp3; sourceTree = "<group>"; };
 		3FBBDAC61CC946630093062E /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		3FBBDAC81CCE87890093062E /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
 		3FE13ABE1CB5737F005A3534 /* What Was That? Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Was That? Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 		3FE13AB51CB5737F005A3534 = {
 			isa = PBXGroup;
 			children = (
+				3F8695A91CD917FE0032904C /* DogBarking.mp3 */,
 				3FE13AC01CB5737F005A3534 /* What Was That? Final */,
 				3FE13AD51CB57380005A3534 /* What Was That? FinalTests */,
 				3FE13AE01CB57380005A3534 /* What Was That? FinalUITests */,
@@ -254,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8695AA1CD917FE0032904C /* DogBarking.mp3 in Resources */,
 				3FE13ACC1CB57380005A3534 /* LaunchScreen.storyboard in Resources */,
 				3FE13AC91CB57380005A3534 /* Assets.xcassets in Resources */,
 				3FE13AC71CB5737F005A3534 /* Main.storyboard in Resources */,

@@ -14,13 +14,9 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
     
     var backgroundMusicPlayer = AVAudioPlayer()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     func playBackgroundMusic(filename: String)
     {
-        let url = NSBundle.mainBundle().URLForResource("DogBark.mp3", withExtension: nil)
+        let url = NSBundle.mainBundle().URLForResource("DogBarking.mp3", withExtension: nil)
         
         do
         {
@@ -36,8 +32,17 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
-    @IBAction func playSoundButton(sender: AnyObject) {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        //playBackgroundMusic("DogBarking.mp3")
+    }
+    
+        @IBAction func playSoundButton(sender: AnyObject)
+    {
+        playBackgroundMusic("DogBarking.mp3")
+        //On button tapped: Music begins to play and a timer counts down from 10 seconds
+        //When timer is up: Music stops and goes to next view controller
         
     }
     
