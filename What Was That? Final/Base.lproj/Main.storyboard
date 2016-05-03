@@ -31,7 +31,7 @@
                                     <segue destination="cvj-YH-nHT" kind="show" id="jfz-oU-uxy"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="main-title" translatesAutoresizingMaskIntoConstraints="NO" id="7f6-l0-lnC" userLabel="main-title">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="WWT--Main_Title_Graphic" translatesAutoresizingMaskIntoConstraints="NO" id="7f6-l0-lnC" userLabel="main-title">
                                 <rect key="frame" x="60" y="164" width="318" height="252"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="318" id="0xQ-3u-RbR"/>
@@ -353,8 +353,8 @@
     </scenes>
     <resources>
         <image name="Start_Button" width="650" height="394"/>
+        <image name="WWT--Main_Title_Graphic" width="979" height="817"/>
         <image name="background" width="1080" height="1920"/>
-        <image name="main-title" width="979" height="817"/>
         <image name="play_blue" width="512" height="512"/>
     </resources>
 </document>
