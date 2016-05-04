@@ -21,7 +21,7 @@ class SoundViewController: UIViewController, AVAudioPlayerDelegate {
         do
         {
             backgroundMusicPlayer = try AVAudioPlayer(contentsOfURL: url!)
-            backgroundMusicPlayer.numberOfLoops = -1
+            backgroundMusicPlayer.numberOfLoops = 1
             backgroundMusicPlayer.prepareToPlay()
             backgroundMusicPlayer.play()
             
