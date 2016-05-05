@@ -14,6 +14,7 @@ class ChoicesViewController: UIViewController {
     @IBOutlet weak var purpleButton: UIButton!
     @IBOutlet weak var yellowButton: UIButton!
     @IBOutlet weak var redButton: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
     
     var correctAnswer = String()
     var scoreNumber = 0
@@ -22,6 +23,7 @@ class ChoicesViewController: UIViewController {
         super.viewDidLoad()
         
         randomQuestion()
+        scoreLabel.text = "Score: 0"
         
     }
     
@@ -75,6 +77,7 @@ class ChoicesViewController: UIViewController {
         {
             NSLog("Correct!")
             scoreNumber = 20
+            scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
             NSLog("Nope")
@@ -87,6 +90,7 @@ class ChoicesViewController: UIViewController {
         {
             NSLog("Correct!")
             scoreNumber = 20
+            scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
             NSLog("Nope")
@@ -99,6 +103,7 @@ class ChoicesViewController: UIViewController {
         {
             NSLog("Correct!")
             scoreNumber = 20
+            scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
             NSLog("Nope")
@@ -111,6 +116,7 @@ class ChoicesViewController: UIViewController {
         {
             NSLog("Correct!")
             scoreNumber = 20
+            scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
             NSLog("Nope")
