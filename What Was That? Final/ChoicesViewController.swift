@@ -16,6 +16,7 @@ class ChoicesViewController: UIViewController {
     @IBOutlet weak var redButton: UIButton!
     
     var correctAnswer = String()
+    var scoreNumber = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,6 +74,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "1"
         {
             NSLog("Correct!")
+            scoreNumber = 20
         }
         else{
             NSLog("Nope")
@@ -84,6 +86,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "2"
         {
             NSLog("Correct!")
+            scoreNumber = 20
         }
         else{
             NSLog("Nope")
@@ -95,6 +98,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "3"
         {
             NSLog("Correct!")
+            scoreNumber = 20
         }
         else{
             NSLog("Nope")
@@ -106,6 +110,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "4"
         {
             NSLog("Correct!")
+            scoreNumber = 20
         }
         else{
             NSLog("Nope")
