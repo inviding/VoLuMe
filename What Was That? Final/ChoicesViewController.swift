@@ -23,7 +23,7 @@ class ChoicesViewController: UIViewController {
         super.viewDidLoad()
         
         randomQuestion()
-        scoreLabel.text = "Score: 0"
+        scoreLabel.text = "Score: \(scoreNumber)"
         
     }
     
@@ -76,7 +76,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "1"
         {
             NSLog("Correct!")
-            scoreNumber = 20
+            scoreNumber += 20
             scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
@@ -89,7 +89,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "2"
         {
             NSLog("Correct!")
-            scoreNumber = 20
+            scoreNumber += 20
             scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
@@ -102,7 +102,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "3"
         {
             NSLog("Correct!")
-            scoreNumber = 20
+            scoreNumber += 20
             scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
@@ -115,7 +115,7 @@ class ChoicesViewController: UIViewController {
         if correctAnswer == "4"
         {
             NSLog("Correct!")
-            scoreNumber = 20
+            scoreNumber += 20
             scoreLabel.text = "Score: \(scoreNumber)"
         }
         else{
