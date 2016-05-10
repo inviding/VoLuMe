@@ -40,22 +40,22 @@ class ChoicesViewController: UIViewController {
             redButton.setTitle("Tiger", forState: UIControlState.Normal)
             correctAnswer = "2"
             break
-        case 2:
-            greenButton.setTitle("Computer Keyboard", forState: UIControlState.Normal)
-            purpleButton.setTitle("Typewriter", forState: UIControlState.Normal)
-            yellowButton.setTitle("Mobile Phone Sound Effect", forState: UIControlState.Normal)
-            redButton.setTitle("TI-84 Calculator", forState: UIControlState.Normal)
-            correctAnswer = "2"
-            
-            break
-        case 3:
-            greenButton.setTitle("Phone", forState: UIControlState.Normal)
-            purpleButton.setTitle("Radio", forState: UIControlState.Normal)
-            yellowButton.setTitle("Telegraph", forState: UIControlState.Normal)
-            redButton.setTitle("Speakers", forState: UIControlState.Normal)
-            correctAnswer = "1"
-            
-            break
+//        case 2:
+//            greenButton.setTitle("Computer Keyboard", forState: UIControlState.Normal)
+//            purpleButton.setTitle("Typewriter", forState: UIControlState.Normal)
+//            yellowButton.setTitle("Mobile Phone Sound Effect", forState: UIControlState.Normal)
+//            redButton.setTitle("TI-84 Calculator", forState: UIControlState.Normal)
+//            correctAnswer = "2"
+//            
+//            break
+//        case 3:
+//            greenButton.setTitle("Phone", forState: UIControlState.Normal)
+//            purpleButton.setTitle("Radio", forState: UIControlState.Normal)
+//            yellowButton.setTitle("Telegraph", forState: UIControlState.Normal)
+//            redButton.setTitle("Speakers", forState: UIControlState.Normal)
+//            correctAnswer = "1"
+//            
+//            break
 //        case 4:
 //            greenButton.setTitle("", forState: UIControlState.Normal)
 //            purpleButton.setTitle("", forState: UIControlState.Normal)

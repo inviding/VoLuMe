@@ -223,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hxq-3G-jjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2941" y="331"/>
+            <point key="canvasLocation" x="2907" y="331"/>
         </scene>
         <!--Choices View Controller-->
         <scene sceneID="2M4-xa-xOE">
@@ -330,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ht9-AJ-mzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2484" y="331"/>
+            <point key="canvasLocation" x="2408" y="331"/>
         </scene>
         <!--Choices2 View Controller-->
         <scene sceneID="J5e-b7-kIz">
@@ -457,6 +457,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="onTappedSoundButton:" destination="CCe-OU-iW3" eventType="touchUpInside" id="6qj-da-bT7"/>
                                     <action selector="playSoundButton:" destination="cvj-YH-nHT" eventType="touchUpInside" id="mq0-9p-zOG"/>
                                 </connections>
                             </button>
@@ -467,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9N2-jy-UY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3842" y="331"/>
+            <point key="canvasLocation" x="3910" y="331"/>
         </scene>
         <!--Choices3 View Controller-->
         <scene sceneID="Tgb-ys-rYF">
@@ -552,10 +553,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="greenButton" destination="Zkc-cQ-Qm9" id="1ox-BX-g9w"/>
+                        <outlet property="purpleButton" destination="tI9-gn-1sY" id="NMN-kB-Vck"/>
+                        <outlet property="redButton" destination="Cel-A0-tLH" id="N0B-tD-Csb"/>
+                        <outlet property="scoreLabel" destination="fv7-D4-OAQ" id="QNM-dM-9Fk"/>
+                        <outlet property="yellowButton" destination="LbK-mu-6Jl" id="b9M-AX-h6j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4v-Hc-Hmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4304" y="331"/>
+            <point key="canvasLocation" x="4426" y="331"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Asu-4r-8E8">
