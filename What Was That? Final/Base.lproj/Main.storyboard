@@ -179,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="1880" y="331"/>
         </scene>
-        <!--View Controller-->
+        <!--Sound2 View Controller-->
         <scene sceneID="jM7-aY-vJm">
             <objects>
-                <viewController id="wn3-O6-K9X" sceneMemberID="viewController">
+                <viewController id="wn3-O6-K9X" customClass="Sound2ViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4IK-Qs-HoY"/>
                         <viewControllerLayoutGuide type="bottom" id="kTo-jF-Nu7"/>
@@ -332,10 +332,10 @@
             </objects>
             <point key="canvasLocation" x="2484" y="331"/>
         </scene>
-        <!--View Controller-->
+        <!--Choices2 View Controller-->
         <scene sceneID="J5e-b7-kIz">
             <objects>
-                <viewController id="2bB-ve-o6c" sceneMemberID="viewController">
+                <viewController id="2bB-ve-o6c" customClass="Choices2ViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rQ3-hh-YZL"/>
                         <viewControllerLayoutGuide type="bottom" id="O4I-fP-vzb"/>
@@ -423,10 +423,10 @@
             </objects>
             <point key="canvasLocation" x="3393" y="331"/>
         </scene>
-        <!--View Controller-->
+        <!--Sound3 View Controller-->
         <scene sceneID="eGe-b6-iFk">
             <objects>
-                <viewController id="CCe-OU-iW3" sceneMemberID="viewController">
+                <viewController id="CCe-OU-iW3" customClass="Sound3ViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zd8-sP-a0H"/>
                         <viewControllerLayoutGuide type="bottom" id="pbK-nr-oVU"/>
@@ -469,10 +469,10 @@
             </objects>
             <point key="canvasLocation" x="3842" y="331"/>
         </scene>
-        <!--View Controller-->
+        <!--Choices3 View Controller-->
         <scene sceneID="Tgb-ys-rYF">
             <objects>
-                <viewController id="jRZ-u1-NVk" sceneMemberID="viewController">
+                <viewController id="jRZ-u1-NVk" customClass="Choices3ViewController" customModule="What_Was_That__Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vJU-Dy-Nb7"/>
                         <viewControllerLayoutGuide type="bottom" id="Mws-q5-8EI"/>
