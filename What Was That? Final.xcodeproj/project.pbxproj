@@ -11,6 +11,13 @@
 		3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */; };
 		3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634551CBC104000F5BE33 /* ScoreViewController.swift */; };
 		3F7634581CBC11E000F5BE33 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */; };
+		3F9959E71CE0FF16001EC67D /* DogBarking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9959E61CE0FF15001EC67D /* DogBarking.mp3 */; };
+		3F9959E91CE0FFC0001EC67D /* TypeWriter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9959E81CE0FFC0001EC67D /* TypeWriter.mp3 */; };
+		3F9959EB1CE0FFCD001EC67D /* Dialing a Phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9959EA1CE0FFCD001EC67D /* Dialing a Phone.mp3 */; };
+		3F9959ED1CE1004C001EC67D /* Choices2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9959EC1CE1004C001EC67D /* Choices2ViewController.swift */; };
+		3F9959EF1CE10075001EC67D /* Sound2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9959EE1CE10075001EC67D /* Sound2ViewController.swift */; };
+		3F9959F11CE1009E001EC67D /* Sound3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9959F01CE1009E001EC67D /* Sound3ViewController.swift */; };
+		3F9959F31CE100BC001EC67D /* Choices3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9959F21CE100BC001EC67D /* Choices3ViewController.swift */; };
 		3FBBDAC71CC946630093062E /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBDAC61CC946630093062E /* ChoicesViewController.swift */; };
 		3FBBDAC91CCE87890093062E /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBDAC81CCE87890093062E /* DirectionsViewController.swift */; };
 		3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE13AC11CB5737F005A3534 /* AppDelegate.swift */; };
@@ -44,6 +51,13 @@
 		3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		3F7634551CBC104000F5BE33 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		3F9959E61CE0FF15001EC67D /* DogBarking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DogBarking.mp3; path = ../../Downloads/DogBarking.mp3; sourceTree = "<group>"; };
+		3F9959E81CE0FFC0001EC67D /* TypeWriter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TypeWriter.mp3; path = "Other-Sounds/TypeWriter.mp3"; sourceTree = "<group>"; };
+		3F9959EA1CE0FFCD001EC67D /* Dialing a Phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Dialing a Phone.mp3"; path = "Other-Sounds/Dialing a Phone.mp3"; sourceTree = "<group>"; };
+		3F9959EC1CE1004C001EC67D /* Choices2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choices2ViewController.swift; sourceTree = "<group>"; };
+		3F9959EE1CE10075001EC67D /* Sound2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound2ViewController.swift; sourceTree = "<group>"; };
+		3F9959F01CE1009E001EC67D /* Sound3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound3ViewController.swift; sourceTree = "<group>"; };
+		3F9959F21CE100BC001EC67D /* Choices3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choices3ViewController.swift; sourceTree = "<group>"; };
 		3FBBDAC61CC946630093062E /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		3FBBDAC81CCE87890093062E /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
 		3FE13ABE1CB5737F005A3534 /* What Was That? Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Was That? Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +110,9 @@
 		3FE13AB51CB5737F005A3534 = {
 			isa = PBXGroup;
 			children = (
+				3F9959EA1CE0FFCD001EC67D /* Dialing a Phone.mp3 */,
+				3F9959E81CE0FFC0001EC67D /* TypeWriter.mp3 */,
+				3F9959E61CE0FF15001EC67D /* DogBarking.mp3 */,
 				3FE13AC01CB5737F005A3534 /* What Was That? Final */,
 				3FE13AD51CB57380005A3534 /* What Was That? FinalTests */,
 				3FE13AE01CB57380005A3534 /* What Was That? FinalUITests */,
@@ -118,12 +135,16 @@
 			children = (
 				3FE13AC11CB5737F005A3534 /* AppDelegate.swift */,
 				3FE13AC31CB5737F005A3534 /* ViewController.swift */,
-				3FE13AC51CB5737F005A3534 /* Main.storyboard */,
-				3F52331F1CDBB4D7004C2E50 /* Score.swift */,
 				3FBBDAC81CCE87890093062E /* DirectionsViewController.swift */,
-				3FBBDAC61CC946630093062E /* ChoicesViewController.swift */,
-				3F7634551CBC104000F5BE33 /* ScoreViewController.swift */,
+				3FE13AC51CB5737F005A3534 /* Main.storyboard */,
 				3F7634511CB6CA4500F5BE33 /* SoundViewController.swift */,
+				3FBBDAC61CC946630093062E /* ChoicesViewController.swift */,
+				3F9959EE1CE10075001EC67D /* Sound2ViewController.swift */,
+				3F9959EC1CE1004C001EC67D /* Choices2ViewController.swift */,
+				3F9959F01CE1009E001EC67D /* Sound3ViewController.swift */,
+				3F9959F21CE100BC001EC67D /* Choices3ViewController.swift */,
+				3F52331F1CDBB4D7004C2E50 /* Score.swift */,
+				3F7634551CBC104000F5BE33 /* ScoreViewController.swift */,
 				3F7634571CBC11E000F5BE33 /* HighScoreViewController.swift */,
 				3FE13AC81CB57380005A3534 /* Assets.xcassets */,
 				3F015A091CC54FFE00B64F2A /* Sounds */,
@@ -257,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9959EB1CE0FFCD001EC67D /* Dialing a Phone.mp3 in Resources */,
+				3F9959E91CE0FFC0001EC67D /* TypeWriter.mp3 in Resources */,
+				3F9959E71CE0FF16001EC67D /* DogBarking.mp3 in Resources */,
 				3FE13ACC1CB57380005A3534 /* LaunchScreen.storyboard in Resources */,
 				3FE13AC91CB57380005A3534 /* Assets.xcassets in Resources */,
 				3FE13AC71CB5737F005A3534 /* Main.storyboard in Resources */,
@@ -287,7 +311,11 @@
 				3FE13AC41CB5737F005A3534 /* ViewController.swift in Sources */,
 				3F7634521CB6CA4500F5BE33 /* SoundViewController.swift in Sources */,
 				3F5233201CDBB4D8004C2E50 /* Score.swift in Sources */,
+				3F9959F31CE100BC001EC67D /* Choices3ViewController.swift in Sources */,
+				3F9959ED1CE1004C001EC67D /* Choices2ViewController.swift in Sources */,
+				3F9959F11CE1009E001EC67D /* Sound3ViewController.swift in Sources */,
 				3F7634561CBC104000F5BE33 /* ScoreViewController.swift in Sources */,
+				3F9959EF1CE10075001EC67D /* Sound2ViewController.swift in Sources */,
 				3FE13AC21CB5737F005A3534 /* AppDelegate.swift in Sources */,
 				3F7634581CBC11E000F5BE33 /* HighScoreViewController.swift in Sources */,
 				3FBBDAC91CCE87890093062E /* DirectionsViewController.swift in Sources */,
