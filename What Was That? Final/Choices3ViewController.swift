@@ -9,6 +9,15 @@
 import UIKit
 
 class Choices3ViewController: UIViewController {
+    @IBOutlet weak var greenButton: UIButton!
+    @IBOutlet weak var purpleButton: UIButton!
+    @IBOutlet weak var yellowButton: UIButton!
+    @IBOutlet weak var redButton: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    
+    var correctAnswer = String()
+    var scoreNumber = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
