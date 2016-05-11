@@ -205,6 +205,7 @@
                                 </state>
                                 <connections>
                                     <action selector="playSoundButton:" destination="cvj-YH-nHT" eventType="touchUpInside" id="UVy-p5-ahm"/>
+                                    <action selector="playSoundButton:" destination="wn3-O6-K9X" eventType="touchUpInside" id="ewx-dg-lei"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5F8-gX-4ee">
@@ -356,6 +357,7 @@
                                 </constraints>
                                 <connections>
                                     <action selector="onGreenTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="Gkp-YJ-xFx"/>
+                                    <action selector="onGreenTapped:" destination="2bB-ve-o6c" eventType="touchUpInside" id="Hbg-ev-GrB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwy-0y-WOI">
@@ -367,6 +369,7 @@
                                 </constraints>
                                 <connections>
                                     <action selector="onRedTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="0gi-hH-b3B"/>
+                                    <action selector="onRedTapped:" destination="2bB-ve-o6c" eventType="touchUpInside" id="af3-hr-lij"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRU-oA-lu2">
@@ -377,6 +380,7 @@
                                     <constraint firstAttribute="height" constant="250" id="UBm-Bo-JhS"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="onYellowTapped:" destination="2bB-ve-o6c" eventType="touchUpInside" id="IF6-Oa-716"/>
                                     <action selector="onYellowTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="YuX-2Z-Wuz"/>
                                 </connections>
                             </button>
@@ -390,6 +394,7 @@
                                 </constraints>
                                 <connections>
                                     <action selector="onPurpleTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="UkB-62-NGX"/>
+                                    <action selector="onPurpleTapped:" destination="2bB-ve-o6c" eventType="touchUpInside" id="vbD-dm-Kho"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iow-Uy-sBe">
@@ -418,6 +423,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="greenButton" destination="vyA-mJ-k5b" id="08d-d7-HmQ"/>
+                        <outlet property="purpleButton" destination="ezu-SR-Tva" id="YAI-7g-Dbl"/>
+                        <outlet property="redButton" destination="Xwy-0y-WOI" id="Dni-Ap-kix"/>
+                        <outlet property="scoreLabel" destination="a25-VH-gJg" id="miR-ze-Rnq"/>
+                        <outlet property="yellowButton" destination="lRU-oA-lu2" id="IbJ-o5-Hdn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z27-HZ-Itk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -435,9 +447,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="cF8-gF-oki">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ7-7r-LtL">
                                 <rect key="frame" x="152" y="481" width="111" height="30"/>
                                 <state key="normal" title="Answer Choices">

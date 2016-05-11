@@ -9,27 +9,86 @@
 import UIKit
 
 class Choices2ViewController: UIViewController {
-
+    
+    @IBOutlet weak var greenButton: UIButton!
+    @IBOutlet weak var purpleButton: UIButton!
+    @IBOutlet weak var yellowButton: UIButton!
+    @IBOutlet weak var redButton: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    var correctAnswer = String()
+    var scoreNumber = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        randomQuestion()
+        scoreLabel.text = "Score: \(scoreNumber)"
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func randomQuestion()
+    {
+        greenButton.setTitle("Phone", forState: UIControlState.Normal)
+        purpleButton.setTitle("Radio", forState: UIControlState.Normal)
+        yellowButton.setTitle("Telegraph", forState: UIControlState.Normal)
+        redButton.setTitle("Speakers", forState: UIControlState.Normal)
+        
+        correctAnswer = "1"
     }
-    */
-
+    
+    @IBAction func onGreenTapped(sender: AnyObject) {
+        if correctAnswer == "1"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+        
+    }
+    
+    @IBAction func onPurpleTapped(sender: AnyObject) {
+        if correctAnswer == "2"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+        
+    }
+    
+    @IBAction func onYellowTapped(sender: AnyObject) {
+        if correctAnswer == "3"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+        
+    }
+    
+    @IBAction func onRedTapped(sender: AnyObject) {
+        if correctAnswer == "4"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+        
+    }
+    
+    
+    
+    
 }
