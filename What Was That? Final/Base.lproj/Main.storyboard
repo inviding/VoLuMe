@@ -502,6 +502,7 @@
                                     <constraint firstAttribute="height" constant="250" id="f5g-Cb-3ZO"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="onGreenTap:" destination="jRZ-u1-NVk" eventType="touchUpInside" id="10i-F5-q3b"/>
                                     <action selector="onGreenTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="7xx-Ri-nsr"/>
                                 </connections>
                             </button>
@@ -514,6 +515,7 @@
                                     <constraint firstAttribute="height" constant="250" id="WVS-Ht-44n"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="onPurpleTap:" destination="jRZ-u1-NVk" eventType="touchUpInside" id="aCV-sF-iNI"/>
                                     <action selector="onPurpleTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="tyr-lS-Cun"/>
                                 </connections>
                             </button>
@@ -525,6 +527,7 @@
                                     <constraint firstAttribute="height" constant="250" id="bbf-xr-6wv"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="onRedTap:" destination="jRZ-u1-NVk" eventType="touchUpInside" id="MKQ-FP-bZX"/>
                                     <action selector="onRedTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="yJY-w4-lnM"/>
                                 </connections>
                             </button>
@@ -536,6 +539,7 @@
                                     <constraint firstAttribute="height" constant="250" id="oQD-6x-Bce"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="onYellowTap:" destination="jRZ-u1-NVk" eventType="touchUpInside" id="71S-pJ-Y4h"/>
                                     <action selector="onYellowTapped:" destination="hXD-Zf-fNt" eventType="touchUpInside" id="lfs-A9-LvZ"/>
                                 </connections>
                             </button>

@@ -31,5 +31,58 @@ class Choices3ViewController: UIViewController {
 //        redButton.setTitle("Speakers", forState: UIControlState.Normal)
 //        correctAnswer = "1"
 //    }
+    
+    @IBAction func onGreenTap(sender: AnyObject) {
+        if correctAnswer == "1"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onPurpleTap(sender: AnyObject) {
+        if correctAnswer == "2"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onYellowTap(sender: AnyObject) {
+        if correctAnswer == "3"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onRedTap(sender: AnyObject) {
+        if correctAnswer == "1"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+
+    
+    
+    
+    
 
 }
