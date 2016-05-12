@@ -12,6 +12,7 @@ import AVFoundation
 class Sound2ViewController: UIViewController, AVAudioPlayerDelegate {
 
     var backgroundMusicPlayer = AVAudioPlayer()
+    var scoreNumber = 0
     
     func playBackgroundMusic(filename: String)
     {
@@ -39,6 +40,11 @@ class Sound2ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     @IBAction func playSoundButton(sender: AnyObject) {
         playBackgroundMusic("Dialing a Phone.mp3")
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc = segue.destinationViewController as! Choices2ViewController
+        vc.scoreNumber = scoreNumber
     }
 
 }

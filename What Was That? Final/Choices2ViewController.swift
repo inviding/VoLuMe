@@ -89,8 +89,8 @@ class Choices2ViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextVC = segue.destinationViewController as! Choices3ViewController
-        nextVC.scoreNumber = scoreNumber
+        let vc = segue.destinationViewController as! Sound3ViewController
+        vc.scoreNumber = scoreNumber
     }
     
     
