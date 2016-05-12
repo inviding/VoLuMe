@@ -82,7 +82,5 @@ class Choices3ViewController: UIViewController {
 
     
     
-    
-    
 
 }
