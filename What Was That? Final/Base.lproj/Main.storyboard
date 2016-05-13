@@ -555,6 +555,9 @@
                                 <state key="normal" title="Done">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Szt-ji-aCm" kind="show" id="ATE-Fy-cmE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PY-eK-mf6">
                                 <rect key="frame" x="118" y="85" width="179" height="39"/>
@@ -612,30 +615,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="w1t-Ax-nXP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIf-gI-tDT">
-                                <rect key="frame" x="133" y="71" width="148" height="62"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64D-Kz-uwE">
+                                <rect key="frame" x="122" y="336" width="170" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64D-Kz-uwE">
-                                <rect key="frame" x="133" y="154" width="148" height="62"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIf-gI-tDT">
+                                <rect key="frame" x="117" y="183" width="191" height="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wIf-gI-tDT" firstAttribute="centerX" secondItem="A1D-2w-YrU" secondAttribute="centerX" id="ZlU-qA-fyn"/>
-                            <constraint firstItem="64D-Kz-uwE" firstAttribute="centerX" secondItem="A1D-2w-YrU" secondAttribute="centerX" id="h7Y-n9-CVo"/>
+                            <constraint firstItem="wIf-gI-tDT" firstAttribute="centerX" secondItem="A1D-2w-YrU" secondAttribute="centerX" id="duF-5S-FbF"/>
+                            <constraint firstItem="64D-Kz-uwE" firstAttribute="centerX" secondItem="A1D-2w-YrU" secondAttribute="centerX" id="sKf-5Q-Ceu"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="scoreValue" destination="64D-Kz-uwE" id="8PE-1a-ts3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAy-mr-KvH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2484" y="1185"/>
+            <point key="canvasLocation" x="4426" y="1185"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3se-Nd-Axq">
