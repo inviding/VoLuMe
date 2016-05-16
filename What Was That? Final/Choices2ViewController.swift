@@ -88,6 +88,11 @@ class Choices2ViewController: UIViewController {
         
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc = segue.destinationViewController as! Sound3ViewController
+        vc.scoreNumber = scoreNumber
+    }
+    
     
     
     

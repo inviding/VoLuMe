@@ -23,13 +23,64 @@ class Choices3ViewController: UIViewController {
         super.viewDidLoad()
 
     }
-//    
-//    func randomQuestion(){
-//        greenButton.setTitle("Phone", forState: UIControlState.Normal)
-//        purpleButton.setTitle("Radio", forState: UIControlState.Normal)
-//        yellowButton.setTitle("Telegraph", forState: UIControlState.Normal)
-//        redButton.setTitle("Speakers", forState: UIControlState.Normal)
-//        correctAnswer = "1"
-//    }
+    
+    func randomQuestion(){
+        greenButton.setTitle("Computer Keyboard", forState: UIControlState.Normal)
+        purpleButton.setTitle("Phone Keyboard", forState: UIControlState.Normal)
+        yellowButton.setTitle("Typewriter", forState: UIControlState.Normal)
+        redButton.setTitle("Speakers", forState: UIControlState.Normal)
+        correctAnswer = "1"
+    }
+    
+    @IBAction func onGreenTap(sender: AnyObject) {
+        if correctAnswer == "1"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onPurpleTap(sender: AnyObject) {
+        if correctAnswer == "2"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onYellowTap(sender: AnyObject) {
+        if correctAnswer == "3"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+    
+    @IBAction func onRedTap(sender: AnyObject) {
+        if correctAnswer == "1"
+        {
+            NSLog("Correct!")
+            scoreNumber += 20
+            scoreLabel.text = "Score: \(scoreNumber)"
+        }
+        else{
+            NSLog("Nope")
+        }
+    }
+
+    
+    
 
 }

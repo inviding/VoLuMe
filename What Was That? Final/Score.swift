@@ -10,15 +10,10 @@ import UIKit
 
 class Score: UIViewController {
 
-    var score = 0
+    var scoreNumber = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    convenience init(score: Int){
-        self.init()
-        self.score = score
     }
 
 }
